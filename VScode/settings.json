@@ -10,6 +10,34 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
 
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true
+  },
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  //prettier-vscode
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.printWidth": 100,
+  "prettier.eslintIntegration": true,
+
+  //Estelint
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
   "workbench.editor.labelFormat": "short",
@@ -22,9 +50,9 @@
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  
+
   "editor.rulers": [80, 120],
-  
+
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -35,12 +63,11 @@
     ".prettierrc": "json"
   },
 
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -2,
 
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
-  
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -53,7 +80,7 @@
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
-  "material-icon-theme.activeIconPack": "nest",
+  // "material-icon-theme.activeIconPack": "nest",
   "screencastMode.onlyKeyboardShortcuts": true,
 
   "material-icon-theme.folders.associations": {
@@ -79,5 +106,6 @@
     "*.proto": "3d"
   },
 
-  "workbench.colorTheme": "Omni"
+  "workbench.colorTheme": "Dracula",
+  "editor.multiCursorModifier": "ctrlCmd"
 }
