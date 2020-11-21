@@ -19,24 +19,26 @@
     "node_modules": true
   },
 
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight": "gutter",
-
-  //prettier-vscode
+  // prettier-vscode
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.printWidth": 100,
-  "prettier.eslintIntegration": true,
 
-  //Estelint
-  "eslint.autoFixOnSave": true,
+  // Estelint
   "eslint.run": "onSave",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // indentRainbow
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.5)",
+    "rgba(16,16,16,0.9)"
+  ],
 
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -52,15 +54,13 @@
   "explorer.confirmDelete": false,
 
   "editor.rulers": [80, 120],
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  "editor.wordWrap": "on",
 
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
-    ".prettierrc": "json"
+    ".prettierrc": "json",
+    ".eslintrc": "json"
   },
 
   "window.zoomLevel": -2,
@@ -107,5 +107,12 @@
   },
 
   "workbench.colorTheme": "Dracula",
-  "editor.multiCursorModifier": "ctrlCmd"
+  "editor.multiCursorModifier": "ctrlCmd",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true
 }
