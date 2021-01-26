@@ -1,7 +1,7 @@
-{
+ {
   //Editor VSCODE Visual
-  "workbench.colorTheme": "Atom One Dark",
-  "editor.fontFamily": "Fira Code",
+  "workbench.colorTheme": "SynthWave '84",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
@@ -11,7 +11,7 @@
   "editor.wordWrap": "on",
   "editor.mouseWheelZoom": true,
   "editor.parameterHints.enabled": false,
-  "editor.snippetSuggestions": "top",
+  "editor.snippetSuggestions": "bottom",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderLineHighlight": "gutter",
   "editor.codeActionsOnSave": {
@@ -19,22 +19,18 @@
     "source.fixAll.stylelint": true,
     "source.fixAll": true
   },
-  
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.shell.osx": "/bin/zsh",
   "screencastMode.onlyKeyboardShortcuts": true,
-
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
-  "window.zoomLevel": -2,
-
+  "window.zoomLevel": -1,
   // indentRainbow
   "indentRainbow.colors": [
     "rgba(16,16,16,0.1)",
     "rgba(16,16,16,0.5)",
     "rgba(16,16,16,0.9)"
   ],
-  
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -43,7 +39,6 @@
     "**/.DS_Store": true,
     "node_modules": true
   },
-  
   // material-icon-theme
   "material-icon-theme.folders.associations": {
     "infra": "app",
@@ -66,7 +61,6 @@
     "tsconfig.json": "tune",
     "*.proto": "3d"
   },
-  
   // html
   "html.format.endWithNewline": true,
   "html.format.indentHandlebars": true,
@@ -75,14 +69,12 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  
   // css
   "[css]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.stylelint": true
     }
   },
-  
   // eslint
   "eslint.codeActionsOnSave.mode": "all",
   "eslint.options": {
@@ -91,43 +83,31 @@
   "eslint.run": "onSave",
   "eslint.format.enable": true,
   "eslint.validate": ["javascript"],
-
-
   "explorer.compactFolders": false,
-  
   "workbench.editor.labelFormat": "short",
   "extensions.ignoreRecommendations": true,
-
   "typescript.tsserver.log": "verbose",
   "typescript.updateImportsOnFileMove.enabled": "never",
   "typescript.suggest.autoImports": true,
-  
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.suggest.autoImports": true,
-
   "breadcrumbs.enabled": true,
-  
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-
   "files.associations": {
     ".sequelizerc": "javascript",
     ".stylelintrc": "json",
     ".prettierrc": "json",
     ".eslintrc": "json"
   },
-
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
   "git.enableSmartCommit": true,
-
   "liveshare.featureSet": "insiders",
   "liveServer.settings.donotShowInfoMsg": true,
-
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -135,7 +115,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.autofetch": true,
-  "cSpell.userWords": ["Beto", "Oliveira", "firstname", "lastname"],
+  "cSpell.userWords": ["Beto", "Oliveira", "firstname", "lastname", "testid"],
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -145,5 +125,15 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.gist": "2e714d39fc4ebec3bb7c4c17d0eabe7a",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
 }
