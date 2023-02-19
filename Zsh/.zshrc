@@ -76,3 +76,4 @@ fi
 # export PATH="$HOME/.rbenv/shims:$PATH"
 # export PATH="$HOME/.rbenv/bin:$PATH"
 # eval "$(rbenv init -)"
+source /home/dev-beto/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
